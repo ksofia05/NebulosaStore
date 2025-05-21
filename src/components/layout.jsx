@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <div className="relative flex h-screen overflow-hidden pl-41 py-5 pr-5 ">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('../../public/background.png')` }}
+        style={{ backgroundImage: `url('/background.png')` }}
       ></div>
       <div className="relative flex h-full w-full">
         <Navbar />
